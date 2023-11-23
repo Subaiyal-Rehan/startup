@@ -1,0 +1,184 @@
+@media screen and (max-width: 1250px) {
+    .Footer-First-Social-Container {
+        width: 100%;
+        margin-top: 10px;
+    }
+}
+
+@media screen and (max-width: 1199px) {
+    .How-Work-Text-In {
+        max-width: 370px !important;
+    }
+
+    .About-Second {
+        padding-left: 65px !important;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    nav.navbar {
+        background-color: rgb(33, 37, 41);
+    }
+
+    .navbar-toggler {
+        width: 100%;
+        display: flex;
+        justify-content: end;
+        padding: 10px;
+        background-color: #4c4c4c;
+    }
+
+    .Navbar-Menu {
+        background-color: rgb(33, 37, 41);
+    }
+
+    nav.navbar ul {
+        margin-top: 10px;
+    }
+
+    nav.navbar ul>li {
+        width: 100%;
+    }
+
+    nav.navbar ul>li a:hover {
+        background-color: rgb(210, 210, 210);
+        color: black !important;
+    }
+
+    .Display-Blog {
+        display: none;
+        position: absolute;
+        animation: Header-Blog .4s cubic-bezier(.31, 0, .37, .99) alternate forwards;
+    }
+
+    @keyframes Header-Pages {
+        from {
+            top: 200px;
+            left: 140px;
+            opacity: 0;
+        }
+    
+        to {
+            top: 200px;
+            left: 106px;
+            opacity: 1;
+        }
+    }
+
+    @keyframes Header-Blog {
+        from {
+            top: 260px;
+            left: 140px;
+            opacity: 0;
+        }
+    
+        to {
+            top: 260px;
+            left: 100px;
+            opacity: 1;
+        }
+    }
+
+    .Header-Btn {
+        display: none;
+    }
+
+    .How-Work-Text-In {
+        max-width: 100% !important;
+    }
+
+    .How-Work-First {
+        width: 720px !important;
+        margin: auto !important;
+    }
+
+    .How-Work-Image-Container {
+        display: none !important;
+    }
+
+    .About-Image-Container {
+        display: none !important;
+    }
+
+    .About-Second {
+        width: 100%;
+        padding: 105px 0 !important;
+    }
+
+    .About-Second-In {
+        max-width: 700px;
+        margin: auto;
+    }
+
+    .Slider-Para p {
+        font-size: 19px !important;
+    }
+
+    .Footer-Second-Links-Container {
+        width: 100%;
+        margin-top: 10px;
+    }
+
+    .Footer-Second-Links-Container > ul {
+        justify-content: center !important;
+    }
+
+    .Footer-First-Image-Container {
+        display: flex !important;
+        justify-content: center !important;
+        width: 100%;
+    }
+
+    .Footer-First-Social-Container > ul {
+        justify-content: center !important;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .Team-Card img {
+        width: 100%;
+    }
+
+    .How-Work-First {
+        width: 600px !important;
+    }
+
+    .About-Second-In {
+        max-width: 500px;
+    }
+
+    .Services-Card {
+        margin-top: 30px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .How-Work-First {
+        width: 100% !important;
+        padding-right: 0 !important;
+    }
+
+    .Footer-Second-Links-Container ul li a {
+        font-size: 15px !important;
+    }
+
+    .Footer-First-Social-Container ul li a {
+        padding: 11px !important;
+        font-size: 10px !important;
+    }
+}
+
+@media screen and (max-width: 530px) {
+    .About-Second {
+        padding: 105px 20px !important;
+    }
+
+    .Footer-Second-Links-Container ul {
+        flex-direction: column;
+        gap: 10px !important;
+    }
+
+    .Footer-First {
+        padding-bottom: 50px !important;
+    }
+}

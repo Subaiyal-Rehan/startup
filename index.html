@@ -1,0 +1,510 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>StartUp</title>
+    <link rel="shortcut icon" href="Images/Favicon.webp" type="image/x-icon">
+    <!-- Link to Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+    <!-- Link to Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+
+    <!-- Link to FontAwesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- Link To Own CSS Stylesheets -->
+    <link rel="stylesheet" href="utils.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsive.css">
+</head>
+
+<body>
+    <!-- Header Start -->
+    <div class="For-Hero-Bg">
+        <div class="Hero-Overlay">
+            <header>
+                <nav class="navbar navbar-expand-lg">
+                    <div class="container-fluid">
+                        <a class="navbar-brand" href="#"><img src="Images/Logo.webp"></a>
+                        <button class="navbar-toggler rounded-0" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                            aria-expanded="false" aria-label="Toggle navigation">
+                            <div class="Navbar-Menu d-flex align-items-center gap-2 p-2 rounded">
+                                <span class="text-white fs-6 fw-bolder">MENU</span>
+                                <span class="text-white"><i class="bi bi-list fs-4"></i></span>
+                            </div>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                            <ul class="nav justify-content-center w-100">
+                                <li class="nav-item mx-2">
+                                    <a class="nav-link text-light hover-text-purple" href="#">Home</a>
+                                </li>
+                                <li class="nav-item mx-2">
+                                    <a class="nav-link text-light hover-text-purple" href="services.html">Services</a>
+                                </li>
+                                <li class="nav-item mx-2">
+                                    <a class="nav-link text-light hover-text-purple" href="#Portfolio-Section">Portfolio</a>
+                                </li>
+                                <li class="Header-Display-Li nav-item mx-2">
+                                    <a class="nav-link text-light hover-text-purple" href="#">Pages <i
+                                            class="bi bi-chevron-down fs-8"></i></a>
+                                    <ul class="Display-Ul bg-white list-unstyled px-3 py-2">
+                                        <li class="py-2 cursor-pointer hover-text-purple transition-2 fw-bold">Portfolio
+                                            Details</li>
+                                        <li class="py-2 cursor-pointer hover-text-purple transition-2 fw-bold">About
+                                        </li>
+                                        <li class="py-2 cursor-pointer hover-text-purple transition-2 fw-bold">Elements
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="Header-Display-Li Header-Display-Blog nav-item mx-2">
+                                    <a class="nav-link text-light hover-text-purple" href="#">Blog <i
+                                            class="bi bi-chevron-down fs-8"></i></a>
+                                    <ul class="Display-Ul Display-Blog bg-white list-unstyled px-3 py-2">
+                                        <li class="py-2 cursor-pointer hover-text-purple transition-2 fw-bold">Blog</li>
+                                        <li class="py-2 cursor-pointer hover-text-purple transition-2 fw-bold">
+                                            Single-Blog</li>
+                                    </ul>
+                                </li>
+                                <li class="nav-item mx-2">
+                                    <a class="nav-link text-light hover-text-purple" href="contact.html#Contact-Section">Contact</a>
+                                </li>
+
+                            </ul>
+                            <div class="Header-Btn border-bottom-purple py-2 border-3 cursor-pointer">
+                                <a class="text-light text-decoration-none fs-6" href="#Contact-Section">Say Hello</a>
+                            </div>
+                        </div>
+                    </div>
+                </nav>
+            </header>
+            <!-- Header Ends -->
+
+            <!-- Main Content Start -->
+            <section class="Hero-Section">
+                <div class="container">
+                    <h1 class="display-2 text-light letter-space-2">Startup you can build a website online using the
+                        Bootstrap builder.</h1>
+                    <button class="btn btn-outline-purple mt-5">Visit Our Works</button>
+                </div>
+            </section>
+        </div>
+    </div>
+
+    <main>
+        <!-- Services Section -->
+        <section id="Services-Section" class="Services-Section section-space">
+            <div class="section-text text-center">
+                <h3 class="text-purple fs-7 fw-bolder">Services</h3>
+                <h2 class="m-auto fs-1">With more than 20 years of experience we can deliver the best product design.
+                </h2>
+            </div>
+
+            <div class="Services-Cards-Container container m-auto row">
+                <div class="col-md-4 px-4">
+                    <div
+                        class="Services-Card text-center border border-2 py-5 px-5 rounded hover-border-purple transition-2 cursor-pointer">
+                        <div class="Services-Card-Icon">
+                            <i class="bi bi-layers display-4"></i>
+                        </div>
+                        <div class="Services-Card-Heading my-4 mt-2">
+                            <h3>Graphic design</h3>
+                        </div>
+                        <div class="Services-Card-Heading">
+                            <p class="text-muted ">Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do
+                                eiusmod tempor.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 px-4">
+                    <div
+                        class="Services-Card text-center border border-2 py-5 px-5 rounded hover-border-purple transition-2 cursor-pointer">
+                        <div class="Services-Card-Icon">
+                            <i class="bi bi-layers display-4"></i>
+                        </div>
+                        <div class="Services-Card-Heading my-4 mt-2">
+                            <h3>Web Design</h3>
+                        </div>
+                        <div class="Services-Card-Heading">
+                            <p class="text-muted ">Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do
+                                eiusmod tempor.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 px-4">
+                    <div
+                        class="Services-Card text-center border border-2 py-5 px-5 rounded hover-border-purple transition-2 cursor-pointer">
+                        <div class="Services-Card-Icon">
+                            <i class="bi bi-layers display-4"></i>
+                        </div>
+                        <div class="Services-Card-Heading my-4 mt-2">
+                            <h3>Mobile app</h3>
+                        </div>
+                        <div class="Services-Card-Heading">
+                            <p class="text-muted ">Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do
+                                eiusmod tempor.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="Portfolio-Section" class="About-Section">
+            <div class="row w-100">
+                <div class="About-Image-Container col-md-6 overflow-hidden">
+                    <img src="Images/About.webp">
+                </div>
+                <div class="About-Second col-md-6 bg-darkgray text-light d-flex flex-column justify-content-center">
+                    <div class="About-Second-In">
+                        <h3 class="fs-6 fw-bolder">About Us</h3>
+                        <h2 class="fs-1 mt-4">Empowering individuals</h2>
+                        <p class="text-gray fs-6 mt-6">Efficiently unleash cross-media tour function information without
+                            cross action media value.
+                            Quickly maximize timely deliverables for real-time schemas.</p>
+                        <p class="text-gray fs-5 mt-2">“Function information without cross action media value.</p>
+                        <button class="btn btn-outline-purple mt-4">About Us</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Work Section -->
+        <section class="Work-Section section-space">
+            <div class="section-text text-center">
+                <h2 class="m-auto fs-1">Featured Work</h2>
+                <p class="text-muted mt-4">Tour function information without cross action media value quickly maximize
+                    timely deliverables.</p>
+            </div>
+
+            <div class="Work-Cards-Container container mt-6 m-auto row">
+                <div class="col-md-8">
+                    <div class="Work-Cards Work-Cards1 mt-3 rounded overflow-hidden cursor-pointer">
+                        <div
+                            class="Work-Cards-Text bg-white d-flex flex-column justify-content-center align-items-center h-100 w-100 transition-4 rounded">
+                            <span class="fs-6 text-purple">App Design</span>
+                            <h3 class="fs-4 fw-bolder">Colorib Mobile App</h3>
+                            <button class="btn btn-outline-purple">View</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6">
+                    <div class="Work-Cards Work-Cards2 mt-3 rounded overflow-hidden cursor-pointer">
+                        <div
+                            class="Work-Cards-Text bg-white d-flex flex-column justify-content-center align-items-center h-100 w-100 transition-4 rounded">
+                            <span class="fs-6 text-purple">App Design</span>
+                            <h3 class="fs-4 fw-bolder">Colorib Mobile App</h3>
+                            <button class="btn btn-outline-purple">View</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6">
+                    <div class="Work-Cards Work-Cards3 mt-3 rounded overflow-hidden cursor-pointer">
+                        <div
+                            class="Work-Cards-Text bg-white d-flex flex-column justify-content-center align-items-center h-100 w-100 transition-4 rounded">
+                            <span class="fs-6 text-purple">App Design</span>
+                            <h3 class="fs-4 fw-bolder">Colorib Mobile App</h3>
+                            <button class="btn btn-outline-purple">View</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6">
+                    <div class="Work-Cards Work-Cards4 mt-3 rounded overflow-hidden cursor-pointer">
+                        <div
+                            class="Work-Cards-Text bg-white d-flex flex-column justify-content-center align-items-center h-100 w-100 transition-4 rounded">
+                            <span class="fs-6 text-purple">App Design</span>
+                            <h3 class="fs-4 fw-bolder">Colorib Mobile App</h3>
+                            <button class="btn btn-outline-purple">View</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6">
+                    <div class="Work-Cards Work-Cards5 mt-3 rounded overflow-hidden cursor-pointer">
+                        <div
+                            class="Work-Cards-Text bg-white d-flex flex-column justify-content-center align-items-center h-100 w-100 transition-4 rounded">
+                            <span class="fs-6 text-purple">App Design</span>
+                            <h3 class="fs-4 fw-bolder">Colorib Mobile App</h3>
+                            <button class="btn btn-outline-purple">View</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- How Work Section -->
+        <section class="How-Work-Section d-flex justify-content-center">
+            <div class="row w-100">
+                <div class="How-Work-First col-md-6 bg-white d-flex flex-column justify-content-center align-items-end">
+                    <div class="text-dark How-Work-Text-In">
+                        <h2 class="fs-1 mt-3">How We Work</h2>
+                        <p class="fs-5 mt-4">“Function information without cross action media value.</p>
+                        <p class="text-muted fs-6 mt-3">Efficiently unleash cross-media tour function information
+                            without cross action media value. Quickly maximize timely deliverables for real-time
+                            schemas.</p>
+                        <div class="d-flex align-items-center mt-5">
+                            <button class="btn rounded-purple-btn"><i
+                                    class="bi bi-play-fill text-light fs-4"></i></button>
+                            <span class="ms-2 fs-5">Watch Video</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="How-Work-Image-Container col-md-6 overflow-hidden">
+                    <img class="How-Work-Image" src="Images/How-Work.webp">
+                </div>
+            </div>
+        </section>
+
+        <!-- Team Section -->
+        <section class="Team-Section section-space">
+            <div class="section-text text-center">
+                <h2 class="m-auto fs-1">Our Creative Team</h2>
+                <p class="text-muted mt-4">Tour function information without cross action media value quickly maximize
+                    timely deliverables.</p>
+            </div>
+
+            <div class="Team-Cards-Container container mt-6 m-auto row">
+                <div class="col-md-3 col-sm-6">
+                    <div class="Team-Card cursor-pointer">
+                        <div class="Team-Card-Thumb overflow-hidden position-relative">
+                            <img src="Images/Team1.webp">
+                            <div
+                                class="Team-Card-Hover position-absolute d-flex justify-content-center gap-2 w-100 transition-3">
+                                <button class="btn rounded-purple-btn"><i
+                                        class="bi bi-facebook text-light fs-7"></i></button>
+                                <button class="btn rounded-purple-btn"><i
+                                        class="bi bi-twitter text-light fs-7"></i></button>
+                                <button class="btn rounded-purple-btn"><i
+                                        class="bi bi-instagram text-light fs-7"></i></button>
+                            </div>
+                        </div>
+                        <div class="Team-Card-Text text-center mt-4">
+                            <h3 class="fs-5">Brandon Yeald</h3>
+                            <p class="text-muted">Founder & CEO</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6">
+                    <div class="Team-Card cursor-pointer">
+                        <div class="Team-Card-Thumb overflow-hidden position-relative">
+                            <img src="Images/Team2.webp">
+                            <div
+                                class="Team-Card-Hover position-absolute d-flex justify-content-center gap-2 w-100 transition-3">
+                                <button class="btn rounded-purple-btn"><i
+                                        class="bi bi-facebook text-light fs-7"></i></button>
+                                <button class="btn rounded-purple-btn"><i
+                                        class="bi bi-twitter text-light fs-7"></i></button>
+                                <button class="btn rounded-purple-btn"><i
+                                        class="bi bi-instagram text-light fs-7"></i></button>
+                            </div>
+                        </div>
+                        <div class="Team-Card-Text text-center mt-4">
+                            <h3 class="fs-5">Brandon Yeald</h3>
+                            <p class="text-muted">Founder & CEO</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6">
+                    <div class="Team-Card cursor-pointer">
+                        <div class="Team-Card-Thumb overflow-hidden position-relative">
+                            <img src="Images/Team3.webp">
+                            <div
+                                class="Team-Card-Hover position-absolute d-flex justify-content-center gap-2 w-100 transition-3">
+                                <button class="btn rounded-purple-btn"><i
+                                        class="bi bi-facebook text-light fs-7"></i></button>
+                                <button class="btn rounded-purple-btn"><i
+                                        class="bi bi-twitter text-light fs-7"></i></button>
+                                <button class="btn rounded-purple-btn"><i
+                                        class="bi bi-instagram text-light fs-7"></i></button>
+                            </div>
+                        </div>
+                        <div class="Team-Card-Text text-center mt-4">
+                            <h3 class="fs-5">Brandon Yeald</h3>
+                            <p class="text-muted">Founder & CEO</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6">
+                    <div class="Team-Card cursor-pointer">
+                        <div class="Team-Card-Thumb overflow-hidden position-relative">
+                            <img src="Images/Team4.webp">
+                            <div
+                                class="Team-Card-Hover position-absolute d-flex justify-content-center gap-2 w-100 transition-3">
+                                <button class="btn rounded-purple-btn"><i
+                                        class="bi bi-facebook text-light fs-7"></i></button>
+                                <button class="btn rounded-purple-btn"><i
+                                        class="bi bi-twitter text-light fs-7"></i></button>
+                                <button class="btn rounded-purple-btn"><i
+                                        class="bi bi-instagram text-light fs-7"></i></button>
+                            </div>
+                        </div>
+                        <div class="Team-Card-Text text-center mt-4">
+                            <h3 class="fs-5">Brandon Yeald</h3>
+                            <p class="text-muted">Founder & CEO</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Slider Section -->
+        <section class="Slider-Section">
+            <div class="Slider-Bg-Image">
+                <div class="Slider-Overlay section-space">
+                    <div id="carouselExampleRide" class="carousel slide container" data-bs-ride="true">
+                        <div class="carousel-inner">
+                            <div class="carousel-item text-white text-center active">
+                                <div class="Slider-Icon">
+                                    <i class="bi bi-quote fs-1"></i>
+                                </div>
+                                <div class="Slider-Para mt-4">
+                                    <p class="w-75 m-auto fs-4">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        Ipsa obcaecati rerum et,
+                                        laudantium dignissimos minus. Nam libero, iure qui vero quod soluta blanditiis
+                                        est
+                                        cum error suscipit ratione, quas dolores modi.</p>
+                                </div>
+                                <div class="Slider-Person mt-4">
+                                    <div class="Slider-Person-Image">
+                                        <img src="Images/Slider-Person.webp">
+                                    </div>
+                                    <div class="Slider-Person-Text mt-2">
+                                        <h3 class="fs-6 mb-0">Robert Thomson</h3>
+                                        <span class="fs-7 mt-0">Business Owner</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item text-white text-center">
+                                <div class="Slider-Icon">
+                                    <i class="bi bi-quote fs-1"></i>
+                                </div>
+                                <div class="Slider-Para mt-4">
+                                    <p class="w-75 m-auto fs-4">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        Ipsa obcaecati rerum et,
+                                        laudantium dignissimos minus. Nam libero, iure qui vero quod soluta blanditiis
+                                        est
+                                        cum error suscipit ratione, quas dolores modi.</p>
+                                </div>
+                                <div class="Slider-Person mt-4">
+                                    <div class="Slider-Person-Image">
+                                        <img src="Images/Slider-Person.webp">
+                                    </div>
+                                    <div class="Slider-Person-Text mt-2">
+                                        <h3 class="fs-6 mb-0">Robert Thomson</h3>
+                                        <span class="fs-7 mt-0">Business Owner</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item text-white text-center">
+                                <div class="Slider-Icon">
+                                    <i class="bi bi-quote fs-1"></i>
+                                </div>
+                                <div class="Slider-Para mt-4">
+                                    <p class="w-75 m-auto fs-4">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        Ipsa obcaecati rerum et,
+                                        laudantium dignissimos minus. Nam libero, iure qui vero quod soluta blanditiis
+                                        est
+                                        cum error suscipit ratione, quas dolores modi.</p>
+                                </div>
+                                <div class="Slider-Person mt-4">
+                                    <div class="Slider-Person-Image">
+                                        <img src="Images/Slider-Person.webp">
+                                    </div>
+                                    <div class="Slider-Person-Text mt-2">
+                                        <h3 class="fs-6 mb-0">Robert Thomson</h3>
+                                        <span class="fs-7 mt-0">Business Owner</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleRide"
+                            data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleRide"
+                            data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="Contact-Section" class="Contact-Section section-space">
+            <div class="section-text text-center">
+                <h2 class="m-auto fs-1">Get in Touch</h2>
+                <p class="text-muted mt-4">Tour function information without cross action media value quickly maximize
+                    timely deliverables.</p>
+            </div>
+
+            <div class="Contact-Inputs-Container container m-auto mt-6">
+                <form class="row">
+                    <div class="col-md-6 mt-3">
+                        <input class="border p-3 rounded-5 w-100 fs-7" type="text" placeholder="Your Name" name="Name">
+                    </div>
+                    <div class="col-md-6 mt-3">
+                        <input class="border p-3 rounded-5 w-100 fs-7" type="email" placeholder="Email" name="Name">
+                    </div>
+                    <div class="col-md-12 mt-3">
+                        <input class="border p-3 rounded-5 w-100 fs-7" type="text" placeholder="Subject" name="Name">
+                    </div>
+                    <div class="col-md-12 mt-3">
+                        <textarea class="border p-3 rounded-5 w-100 fs-7" name="Message" rows="5"
+                            placeholder="Message"></textarea>
+                    </div>
+                    <div class="col-md-12 mt-3">
+                        <button class="btn btn-outline-purple w-100">Send Message</button>
+                    </div>
+                </form>
+            </div>
+        </section>
+
+    </main>
+    <!-- Main Content Ends -->
+
+    <!-- Footer Start -->
+    <footer class="bg-darkgray">
+        <div class="Footer-First container m-auto row d-flex align-items-center">
+            <div class="col-md-2 Footer-First-Image-Container">
+                <img src="Images/Logo.webp">
+            </div>
+            <div class="col-md-8 Footer-Second-Links-Container">
+                <ul class="d-flex list-unstyled justify-content-start align-items-center gap-5 mt-3">
+                    <li><a class="text-white text-decoration-none hover-text-purple transition-2" href="#Portfolio-Section">About</a></li>
+                    <li><a class="text-white text-decoration-none hover-text-purple transition-2" href="#Services-Section">Services</a></li>
+                    <li><a class="text-white text-decoration-none hover-text-purple transition-2" href="#Portfolio-Section">Portfolio</a></li>
+                    <li><a class="text-white text-decoration-none hover-text-purple transition-2" href="#">Pages</a></li>
+                    <li><a class="text-white text-decoration-none hover-text-purple transition-2" href="#">Blog</a></li>
+                    <li><a class="text-white text-decoration-none hover-text-purple transition-2" href="#Contact-Section">Contact</a></li>
+                </ul>
+            </div>
+            <div class="col-md-2 Footer-First-Social-Container">
+                <ul class="Footer-Social-Icons d-flex list-unstyled justify-content-start align-items-center gap-4 mt-3">
+                    <li><a class="text-white rounded-circle p-3 fs-7 transition-3" href="#"><i class="bi bi-facebook"></i></a></li>
+                    <li><a class="text-white rounded-circle p-3 fs-7 transition-3 ms-2" href="#"><i class="bi bi-twitter"></i></a></li>
+                    <li><a class="text-white rounded-circle p-3 fs-7 transition-3 ms-2" href="#"><i class="bi bi-instagram"></i></a></li>
+                    <li><a class="text-white rounded-circle p-3 fs-7 transition-3 ms-2" href="#"><i class="bi bi-google"></i></a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="Footer-Second container text-center pt-4">
+            <span class="text-gray fs-7">Copyright ©2023 All rights reserved | This website is made by <span class="cursor-pointer"><a href="https://github.com/Subaiyal-Rehan" class="text-white hover-text-purple transition-2">Subaiyal Rehan</a></span></span>
+        </div>
+    </footer>
+    <!-- Footer Start -->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
